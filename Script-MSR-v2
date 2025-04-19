@@ -9,7 +9,7 @@ elseif getgenv().Team == "Marines" then
 end
 wait(4)
 ------------------------------------------------------------------------------------------------------------------------------
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhhhhhhhhhhh1910/Main-scripts/refs/heads/main/Mastery-Lib.lua?token=GHSAT0AAAAAAC7EY7JOFSK632HUGAUVSYT42AC6RDA"))()
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhhhhhhhhhhh1910/Main-script/refs/heads/main/MasteryLib.lua"))()
 local Window =
     Fluent:CreateWindow(
     {

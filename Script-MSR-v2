@@ -9,7 +9,7 @@ elseif getgenv().Team == "Marines" then
 end
 wait(4)
 ------------------------------------------------------------------------------------------------------------------------------
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhhhhhhhhhhh1910/Main-script/refs/heads/main/MasteryLib.lua"))()
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhhhhhhhhhhh1910/Main-scripts/refs/heads/main/Mastery-Lib.lua?token=GHSAT0AAAAAAC7EY7JOFSK632HUGAUVSYT42AC6RDA"))()
 local Window =
     Fluent:CreateWindow(
     {
@@ -24,20 +24,20 @@ local Window =
 )
 
 local Tabs = {
-    Sever = Window:AddTab({Title = "Trạng thái và máy chủ|Status And Server", Icon = "loader"}),
-    Main = Window:AddTab({Title = "Trang chủ|Main", Icon = "home"}),
-    Setting = Window:AddTab({Title = "Cài đặt|Settings", Icon = "sliders"}),
+    Sever = Window:AddTab({Title = "Status And Server", Icon = "loader"}),
+    Main = Window:AddTab({Title = "Main", Icon = "home"}),
+    Setting = Window:AddTab({Title = "Settings", Icon = "sliders"}),
     Player = Window:AddTab({Title = "PvP", Icon = "shield"}),
-    Item = Window:AddTab({Title = "Lấy vật phẩm|Get Item", Icon = "sword"}),
-    Fish = Window:AddTab({Title = "Sự kiện biển|Sea Event", Icon = "anchor"}),
-    Volcanic = Window:AddTab({Title = "Sự kiện núi lửa|Volcano Event", Icon = "tent"}),	
-    S =	Window:AddTab({Title = "Cài đặt sự kiện biển|Setting For Sea Event", Icon = "layers"}),	
-    Teleport = Window:AddTab({Title = "Dịch chuyển|Teleport", Icon = "map"}),
-    Fruit = Window:AddTab({Title = "Trái|Fruit", Icon = "apple"}),
-    Raid = Window:AddTab({Title = "Tập kích|Raid", Icon = "target"}),
-    Race = Window:AddTab({Title = "Tộc|Race", Icon = "flag"}),
-    Shop = Window:AddTab({Title = "Cửa hàng|Shop", Icon = "shopping-bag"}),
-    Misc = Window:AddTab({Title = "Khác|Misc", Icon = "menu"})
+    Item = Window:AddTab({Title = "Get Item", Icon = "sword"}),
+    Fish = Window:AddTab({Title = "Sea Event", Icon = "anchor"}),
+    Volcanic = Window:AddTab({Title = "Volcano Event", Icon = "tent"}),	
+    S =	Window:AddTab({Title = "Setting For Sea Event", Icon = "layers"}),	
+    Teleport = Window:AddTab({Title = "Teleport", Icon = "map"}),
+    Fruit = Window:AddTab({Title = "Fruit", Icon = "apple"}),
+    Raid = Window:AddTab({Title = "Raid", Icon = "target"}),
+    Race = Window:AddTab({Title = "Race", Icon = "flag"}),
+    Shop = Window:AddTab({Title = "Shop", Icon = "shopping-bag"}),
+    Misc = Window:AddTab({Title = "Misc", Icon = "menu"})
 }
 local Options = Fluent.Options
 do
